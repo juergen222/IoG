@@ -1,0 +1,14 @@
+.navTest div.main_list ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 65px;
+    font-size: 2.4rem;
+}
+
+.affix {
+    background-color: white;
+}
+
+.navTest div.main_list ul {
+    background-color: white;
+}
