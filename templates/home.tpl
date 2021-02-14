@@ -23,7 +23,7 @@
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center  " >
                     <h2 class="display-4 text-center font-weight-bold">What</h2>
                     <img class="img-fluid p-3" src="../res/question.png" alt="?">
-                    <p class="justify-content-center text-justify">
+                    <p class="justify-content-center">
                         <b> I O G </b> stands for Internet of Gardening and is a system devoloped by Jürgen Ederer & Tobias Zeller.
                         It's sole purpose is to change your gardening experience forever.
                     </p>
@@ -33,7 +33,7 @@
                         How
                     </h2>
                     <img class="img-fluid p-3" src="../res/question.png" alt="?">
-                    <p class="justify-content-center text-justify">
+                    <p class="justify-content-center ">
                         IOG uses several different sensors to aquire all the possible data, about your about your garden. All the data is read per click on this website.
                     </p>
                 </div>
@@ -42,7 +42,7 @@
                         Why
                     </h2>
                     <img class="img-fluid p-3 " src="../res/question.png" alt="?">
-                    <p class="justify-content-center text-justify">
+                    <p class="justify-content-center ">
                         What started off as a simple project for graduation, evolved into a full on business model.
                     </p>
                 </div>
