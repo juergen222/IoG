@@ -24,35 +24,18 @@ $sql = "SELECT name, comment, M_Id FROM messtation";
 $result = $mysqli->query($sql);
 
 if($result->num_rows >0){
-    echo "<div class='row'>";
+
     while($row = $result->fetch_assoc())
     {
-
-        echo "<div class='col-lg-4 col-md-4 col-sm-6 col-12 stationItem p-0 m-2'> ";
-
-
-        echo "<h3 class='h3 m-0 p-0'> " .$row["name"]." <br> <span class='information'>".$row["M_Id"] . " </span> </h3>";
-
-
-        echo  "<p>" .$row["comment"] . "</p";
-
-       echo "<button  class='btn btn-dark' >";
-
-
-        echo "</div> ";
-
-
-
-
-
-
-
+        $dboutput[] =$row;
 
     }
-    echo "</div> ";
+
 
 }
 else{
+    // TODO Handle no devices
     echo "No Device yet added";
 }
+$smarty->assign('dboutput',$dboutput);
 $smarty->display('../templates/devices.tpl');

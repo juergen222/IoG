@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/IoG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IoG.iml" afterDir="false" />
+    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Initial Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/php/devices.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/devices.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devices.tpl" afterDir="false" />
     </list>
@@ -30,7 +37,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code new newer newer state/Code" />
-    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -50,7 +58,7 @@
       <updated>1612946568988</updated>
       <workItem from="1612946570080" duration="18768000" />
       <workItem from="1613030954688" duration="598000" />
-      <workItem from="1613311546980" duration="6431000" />
+      <workItem from="1613311546980" duration="7803000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -59,11 +67,29 @@
       <option name="project" value="LOCAL" />
       <updated>1612971119665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initial Commit">
+      <created>1613320107278</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613320107278</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
@@ -87,13 +113,26 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612971047941" />
     <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613312309943" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1612971226214">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613320066292">
+    <state x="838" y="438" key="Github.ShareDialog" timestamp="1613320390287">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320066292" />
+    <state x="838" y="438" key="Github.ShareDialog/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320390287" />
+    <state x="461" y="171" key="SettingsEditor" timestamp="1613320364156">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
+    <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613320148260">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320148260" />
+    <state x="563" y="257" key="run.anything.popup" timestamp="1613320968513">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="563" y="257" key="run.anything.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320968513" />
+    <state x="573" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1613320871625">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="573" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320871625" />
   </component>
 </project>

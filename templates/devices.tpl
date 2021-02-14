@@ -19,5 +19,18 @@
 
         </form>
         </div>
+        <div class="row">
+        {foreach $dboutput as $row}
+        <div class='col-lg-4 col-md-4 col-sm-6 col-12 stationItem p-0 m-2'>
+            <h3 class='h3 m-0 p-0'> {$row.name} <br> <span class='information'> {$row.M_Id} </span> </h3>
+            <p>{$row.comment}</p>
+            <button class='btn btn-dark' >
+        </div>
+
+
+        {/foreach}
+        </div>
+
+
     </div>
 {/block}
