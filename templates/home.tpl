@@ -4,7 +4,7 @@
     <section class="home">
         <section class="bar align-middle"></section>
         <div class="heading">
-            <h1>Overhaul your Garden</h1>
+            <h1 class="display-1">Overhaul your Garden</h1>
         </div>
     </section>
 {/block}

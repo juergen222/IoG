@@ -10,10 +10,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Initial Commit">
+    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;- echo in php file removed">
+      <change afterPath="$PROJECT_DIR$/templates/add_devices.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/devices.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/devices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/nav.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devices.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +61,7 @@
       <updated>1612946568988</updated>
       <workItem from="1612946570080" duration="18768000" />
       <workItem from="1613030954688" duration="598000" />
-      <workItem from="1613311546980" duration="7803000" />
+      <workItem from="1613311546980" duration="11956000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -74,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613320107278</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;- echo in php file removed">
+      <created>1613321652979</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613321652979</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,7 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;- echo in php file removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;- echo in php file removed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="239" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612963660741">
@@ -122,14 +133,14 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
     <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613320148260">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613321673367">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320148260" />
-    <state x="563" y="257" key="run.anything.popup" timestamp="1613320968513">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613321673367" />
+    <state x="563" y="257" key="run.anything.popup" timestamp="1613323337685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="563" y="257" key="run.anything.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320968513" />
+    <state x="563" y="257" key="run.anything.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613323337685" />
     <state x="573" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1613320871625">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

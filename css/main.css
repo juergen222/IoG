@@ -1,7 +1,7 @@
 main{
     font-family: Roboto, "Helvetica Neue", sans-serif;
     font-size: 20px;
-    background: lightgrey;
+
 
 }
 header {
@@ -240,8 +240,16 @@ a:visited{
 .heading h1{
     text-align: center;
     color: white;
-    font-size: 10vh;
-    font-family: "Metropolis Medium", sans-serif;
+    font-size: 120px;
+
+}
+@media screen and (max-width: 712px) {
+
+    .heading h1 {
+        text-align: center;
+        color: white;
+        font-size: 80px;
+    }
 }
 
 .devicesTitle{
