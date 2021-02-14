@@ -10,12 +10,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;&#10;- echo in php file removed">
-      <change afterPath="$PROJECT_DIR$/php/add_device.php" afterDir="false" />
+    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage">
+      <change afterPath="$PROJECT_DIR$/js/table_appear.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/add_device.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/add_device.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/add_devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_devices.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devices.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,13 +38,14 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Code new newer newer state/Code" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="Y:\Programm files\xampp\htdocs\IoG\js" />
       <recent name="D:\xampp\htdocs\IoG\css" />
       <recent name="D:\xampp\htdocs\IoG\res" />
       <recent name="D:\xampp\htdocs\IoG\js" />
@@ -60,7 +61,7 @@
       <updated>1612946568988</updated>
       <workItem from="1612946570080" duration="18768000" />
       <workItem from="1613030954688" duration="598000" />
-      <workItem from="1613311546980" duration="12951000" />
+      <workItem from="1613311546980" duration="14103000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -90,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613328824631</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage">
+      <created>1613329958147</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613329958147</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -111,7 +119,8 @@
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;- echo in php file removed" />
     <MESSAGE value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;&#10;- echo in php file removed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;&#10;- echo in php file removed" />
+    <MESSAGE value="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="239" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612963660741">
@@ -144,10 +153,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
     <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613321673367">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613329965590">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613321673367" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613329965590" />
     <state x="563" y="257" key="run.anything.popup" timestamp="1613323337685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

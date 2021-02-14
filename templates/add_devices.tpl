@@ -1,6 +1,9 @@
 {extends file="../templates/parent.tpl"}
 {block name=title}IoG - Home{/block}
-{block name=stylesheet}<link rel="stylesheet" href="../css/deviceNav.css">{/block}
+{block name=stylesheet}
+    <link rel="stylesheet" href="../css/deviceNav.css">
+    <script src="../js/table_appear.js"></script>
+{/block}
 {block name=header}<h1 class="devicesTitle display-1 h1">ADD Devices</h1>{/block}
 {block name=main}
     <div class="container p-3 bg-white " style="max-width: 80%">

@@ -16,11 +16,11 @@
                 <label for="dayOfMeasureEnd">Day End</label>
                 <input type="date" id="dayOfMeasureEnd" name="MeasureDateEnd">
         </form>
-        <span><a href="view_devices.php"> Add New Device  </a>  </span>
+        <span><a href="../php/add_device.php"> Add New Device  </a>  </span>
         </div>
         <div class="row justify-content-center ">
         {foreach $dboutput as $row}
-        <div class='col-lg-3 col-md-3 col-sm-6 col-12 stationItem p-0 m-2 justif'>
+        <div class='col-lg-3 col-md-3 col-sm-6 col-12 stationItem p-0 m-2 '>
             <h3 class='h3 m-0 p-0'> {$row.name} <br> <span class='information'> {$row.M_Id} </span> </h3>
             <p>{$row.comment}</p>
             <button class='btn btn-dark m-2 '  type="submit"> Show </button>
