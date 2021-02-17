@@ -37,7 +37,7 @@
                         IOG uses several different sensors to aquire all the possible data, about your about your garden. All the data is read per click on this website.
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center  " >
+                <div class="col-lg-4 col-md-4 text-center   "  >
                     <h2 class="display-4 text-center font-weight-bold">
                         Why
                     </h2>

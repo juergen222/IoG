@@ -1,21 +1,10 @@
 <?php
 
 include('../smarty/libs/Smarty.class.php');
+include ('../php/db_conn.php');
+
 
 $smarty = new Smarty;
-
-$dbhost = "localhost";
-$dbuser = "projekt";
-$dbpasswd = "IOG";
-$dbname = "beet_datenbank";
-
-$mysqli = new mysqli($dbhost, $dbuser, $dbpasswd, $dbname);
-
-if ($mysqli->connect_errno) {
-    // Ausgabe im Fehlerfall sollte verbessert werden :-(
-    printf("Connect failed: %s\n", $mysqli->connect_error);
-    exit();
-}
 
 if(isset($_POST['submitbtn']) && !empty($_POST["name"]) && !empty($_POST["deviceId"])  )
 {

@@ -1,13 +1,14 @@
 {extends file="../templates/parent.tpl"}
 {block name=title}IoG - Devices{/block}
-{block name=stylesheet}<link rel="stylesheet" href="../css/deviceNav.css">{/block}
+
+{block name=stylesheet}<link rel="stylesheet" href="../css/deviceNav.css">  <script src="../js/device_sent.js"></script>{/block}
 {block name=header}<h1 class="devicesTitle display-1 h1">My Devices</h1> {/block}
 
 {block name=main}
 
     <!--<section class="banner"></section>-->
     <div class="container p-3 bg-white " style="max-width: 80%">
-        <div class="container">
+        <div class="container " id="mainCon">
 
 
             <!--<form METHOD="post">
@@ -22,7 +23,7 @@
         <div class="row justify-content-center ">
             {foreach $dboutput as $row}
             <div class='col-lg-3 col-md-3 col-sm-6 col-12 stationItem p-0 m-2 '>
-                <h2 class='h3 m-0 p-0'> {$row.name}  </h2>
+                <h2 class='h3 m-0 p-0' id="deviceName"> {$row.name}  </h2>
                 <p class="commmentOutput">{$row.comment}</p>
 
 
@@ -36,12 +37,11 @@
                 {/if}
 
 
-
-                <form action="view_data.php">
-                    <input class='btn btn-dark m-2 '  type="submit" name="showData"> Show </input>
+                <script src="../js/device_sent.js"></script>
+                <form action="../php/view_data.php" method="post">
+                    <input type="hidden" name="deviceID" value="{$row.M_Id}">
+                    <button class='btn btn-dark m-2 ' type="submit" id="show_btn"  name="showData"> Show </button>
                 </form>
-
-
             </div>
 
 
@@ -53,4 +53,11 @@
     </div>
     <div class="banner-white">
     </div>
+    <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+
+    <script>
+        </script>
 {/block}

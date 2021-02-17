@@ -1,18 +1,9 @@
 <?php
 include('../smarty/libs/Smarty.class.php');
-
-$dbhost = "localhost";
-$dbuser = "projekt";
-$dbpasswd = "IOG";
-$dbname = "beet_datenbank";
+include ('../php/db_conn.php');
 
 $smarty = new Smarty;
-$mysqli = new mysqli($dbhost, $dbuser, $dbpasswd, $dbname);
-if ($mysqli->connect_errno) {
-    // Ausgabe im Fehlerfall sollte verbessert werden :-(
-    printf("Connect failed: %s\n", $mysqli->connect_error);
-    exit();
-}
+session_start();
 /*$sql = "SELECT messwert.Wert, messwert.Date, messwert.StationID, messtation.name, messtation.comment, messtation.M_Id, parameter.Name, parameter.Einheit FROM messwert
                 INNER JOIN messtation
                 ON messwert.StationID = messtation.M_Id
@@ -55,16 +46,6 @@ else{
     // TODO Handle no devices
     echo "No Device yet added";
 }
-
-
-
-
-
-
-
-    session_start();
-    $_SESSION['name'] = $dboutput["name"];
-
 
 
     $error ="No Data yet received";
