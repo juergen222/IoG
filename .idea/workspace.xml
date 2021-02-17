@@ -11,10 +11,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage">
-      <change afterPath="$PROJECT_DIR$/js/table_appear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/view_data.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/view_data.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/add_device.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/add_device.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_devices.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/devices.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/devices.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devices.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -61,7 +62,10 @@
       <updated>1612946568988</updated>
       <workItem from="1612946570080" duration="18768000" />
       <workItem from="1613030954688" duration="598000" />
-      <workItem from="1613311546980" duration="14103000" />
+      <workItem from="1613311546980" duration="19778000" />
+      <workItem from="1613374636205" duration="9308000" />
+      <workItem from="1613473594637" duration="3621000" />
+      <workItem from="1613546510735" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -98,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613329958147</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage">
+      <created>1613331123370</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613331123370</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +125,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
@@ -144,19 +156,19 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="838" y="438" key="Github.ShareDialog/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320390287" />
-    <state x="793" y="467" key="NewPhpFileDialog" timestamp="1613329235098">
+    <state x="793" y="467" key="NewPhpFileDialog" timestamp="1613385638233">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="793" y="467" key="NewPhpFileDialog/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613329235098" />
+    <state x="793" y="467" key="NewPhpFileDialog/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613385638233" />
     <state x="461" y="171" key="SettingsEditor" timestamp="1613320364156">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
     <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613329965590">
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613331131236">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613329965590" />
+    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613331131236" />
     <state x="563" y="257" key="run.anything.popup" timestamp="1613323337685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -165,5 +177,16 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="573" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320871625" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/templates_c/ba05eb062252045ded06cda295edd59fe562bd33_0.file.devices.tpl.php</url>
+          <line>131</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

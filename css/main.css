@@ -49,10 +49,16 @@ header {
     background-position: center top;
     background-size: cover;
 }
-
-.row p{
-    font-size: larger;
+.banner-white{
+    width: 100%;
+    height: 50vh;
+    /*background-image: url("");*/
+    background-color: white;
+    background-position: center top;
+    background-size: cover;
 }
+
+
 
 header button:hover{
     color: lightgreen;
@@ -261,4 +267,16 @@ a:visited{
     border-style: solid;
     border-color: black;
     text-align: center;
+}
+.spaceFiller{
+
+    width: 100%;
+    height: 40vh;
+    background-color: white;
+
+}
+.commmentOutput{
+    font-size: small;
+
+
 }
