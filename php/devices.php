@@ -11,7 +11,7 @@ session_start();
                 ON messwert.Parameter_Id = parameter.P_Id
                 ORDER BY messwert.Date DESC ";*/
 
-$sql = "SELECT name, comment, M_Id FROM messtation";
+$sql = "SELECT ms_name, ms_comment, ms_id FROM messtation";
 $result = $mysqli->query($sql);
 
 if($result->num_rows >0){
@@ -19,15 +19,15 @@ if($result->num_rows >0){
     while($row = $result->fetch_assoc())
     {
         $dboutput[] =$row;
-        $sqlData=" SELECT messwert.Wert, messwert.Date, messwert.StationID,  parameter.Name, parameter.Einheit From messwert
+        $sqlData=" SELECT messwert.mw_wert, messwert.mw_zeit, messwert.mw_msfk,  parameter.pa_name, parameter.pa_einheit From messwert
         INNER JOIN messtation
-        ON messwert.StationID = " .$row["M_Id"].
+        ON messwert.mw_msfk = " .$row["ms_id"].
         "
         INNER JOIN parameter
-        ON messwert.Parameter_Id = parameter.P_Id
-        WHERE messtation.M_Id ='".$row["M_Id"]."'
-        AND parameter.Name='Bodenfeuchtigkeit'
-        ORDER BY messwert.Date DESC
+        ON messwert.mw_pafk = parameter.pa_id
+        WHERE messtation.ms_id ='".$row["ms_id"]."'
+        AND parameter.pa_name='Bodenfeuchtigkeit'
+        ORDER BY messwert.mw_zeit DESC
         LIMIT 1
         ";
 

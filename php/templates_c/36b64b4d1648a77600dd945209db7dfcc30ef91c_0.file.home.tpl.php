@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.34-dev-7, created on 2021-02-10 13:25:32
+/* Smarty version 3.1.34-dev-7, created on 2021-02-24 08:19:20
   from 'D:\xampp\htdocs\IoG\templates\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.34-dev-7',
-  'unifunc' => 'content_6023d0bc157828_66899154',
+  'unifunc' => 'content_6035fdf8ce13f1_73484744',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '36b64b4d1648a77600dd945209db7dfcc30ef91c' => 
     array (
       0 => 'D:\\xampp\\htdocs\\IoG\\templates\\home.tpl',
-      1 => 1612959929,
+      1 => 1614151085,
       2 => 'file',
     ),
   ),
@@ -20,31 +20,31 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6023d0bc157828_66899154 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6035fdf8ce13f1_73484744 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_15203467426023d0bc154fd0_01237936', 'title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1740062276035fdf8cd8a80_23773735', 'title');
 ?>
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_16966520126023d0bc156360_05954177', 'header');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_7340664246035fdf8cdd667_01561508', 'header');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_98438416023d0bc157045_88852679', 'main');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1682515066035fdf8cdf5e6_58150832', 'main');
 $_smarty_tpl->inheritance->endChild($_smarty_tpl, "../templates/parent.tpl");
 }
 /* {block 'title'} */
-class Block_15203467426023d0bc154fd0_01237936 extends Smarty_Internal_Block
+class Block_1740062276035fdf8cd8a80_23773735 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'title' => 
   array (
-    0 => 'Block_15203467426023d0bc154fd0_01237936',
+    0 => 'Block_1740062276035fdf8cd8a80_23773735',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -54,12 +54,12 @@ IoG - Home<?php
 }
 /* {/block 'title'} */
 /* {block 'header'} */
-class Block_16966520126023d0bc156360_05954177 extends Smarty_Internal_Block
+class Block_7340664246035fdf8cdd667_01561508 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header' => 
   array (
-    0 => 'Block_16966520126023d0bc156360_05954177',
+    0 => 'Block_7340664246035fdf8cdd667_01561508',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -68,7 +68,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
     <section class="home">
         <section class="bar align-middle"></section>
         <div class="heading">
-            <h1>Overhaul your Garden</h1>
+            <h1 class="display-1">Overhaul your Garden</h1>
         </div>
     </section>
 <?php
@@ -76,12 +76,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header'} */
 /* {block 'main'} */
-class Block_98438416023d0bc157045_88852679 extends Smarty_Internal_Block
+class Block_1682515066035fdf8cdf5e6_58150832 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'main' => 
   array (
-    0 => 'Block_98438416023d0bc157045_88852679',
+    0 => 'Block_1682515066035fdf8cdf5e6_58150832',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -100,7 +100,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                 <div class="col-lg-4 col-md-4 col-sm-12 col-12 text-center  " >
                     <h2 class="display-4 text-center font-weight-bold">What</h2>
                     <img class="img-fluid p-3" src="../res/question.png" alt="?">
-                    <p class="justify-content-center text-justify">
+                    <p class="justify-content-center">
                         <b> I O G </b> stands for Internet of Gardening and is a system devoloped by Jürgen Ederer & Tobias Zeller.
                         It's sole purpose is to change your gardening experience forever.
                     </p>
@@ -110,16 +110,16 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
                         How
                     </h2>
                     <img class="img-fluid p-3" src="../res/question.png" alt="?">
-                    <p class="justify-content-center text-justify">
+                    <p class="justify-content-center ">
                         IOG uses several different sensors to aquire all the possible data, about your about your garden. All the data is read per click on this website.
                     </p>
                 </div>
-                <div class="col-lg-4 col-md-4 text-center  " >
+                <div class="col-lg-4 col-md-4 text-center   "  >
                     <h2 class="display-4 text-center font-weight-bold">
                         Why
                     </h2>
                     <img class="img-fluid p-3 " src="../res/question.png" alt="?">
-                    <p class="justify-content-center text-justify">
+                    <p class="justify-content-center ">
                         What started off as a simple project for graduation, evolved into a full on business model.
                     </p>
                 </div>

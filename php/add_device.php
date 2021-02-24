@@ -12,15 +12,13 @@ if(isset($_POST['submitbtn']) && !empty($_POST["name"]) && !empty($_POST["device
     $Comment = $_POST["comment"];
     $deviceId = $_POST["deviceId"];
 
-    $sql = "INSERT INTO messtation (M_Id, name, comment ) VALUES ('$deviceId', '$name','$Comment')";
+    $sql = "INSERT INTO messtation (ms_id, ms_name, ms_comment) VALUES ('$deviceId', '$name','$Comment')";
 
     if ($mysqli->query($sql) === TRUE) {
 
-
-
     } else {
         /*echo "Error: " . $sql . "<br>" . $mysqli->error;*/
-        echo "<br><p class='careful'>Error Data couldnt be inserted <br>";
+        echo "<br><p class='careful'>Error Data couldn't be inserted <br>";
         if (!empty($name) || !empty($deviceID))
         {
             echo "The required values, mustn't be empty </p>";

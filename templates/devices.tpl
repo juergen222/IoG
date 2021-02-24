@@ -18,28 +18,27 @@
                 <input type="date" id="dayOfMeasureEnd" name="MeasureDateEnd">
         </form>-->
 
-        <span><a href="../php/add_device.php"> Add New Device  </a>  </span>
+        <span><a href="../php/add_device.php">Add New Device</a></span>
         </div>
         <div class="row justify-content-center ">
             {foreach $dboutput as $row}
             <div class='col-lg-3 col-md-3 col-sm-6 col-12 stationItem p-0 m-2 '>
-                <h2 class='h3 m-0 p-0' id="deviceName"> {$row.name}  </h2>
-                <p class="commmentOutput">{$row.comment}</p>
+                <h2 class='h3 m-0 p-0' id="deviceName"> {$row.ms_name}  </h2>
+                <p class="commentOutput">{$row.ms_comment}</p>
 
 
-                {if (isset($dboutputData[$row@index].Wert))}
+                {if (isset($dboutputData[$row@index].mw_wert))}
 
-                    {$dboutputData[$row@index].Name}: {$dboutputData[$row@index].Wert}<br>
+                    {$dboutputData[$row@index].pa_name}: {$dboutputData[$row@index].mw_wert}<br>
 
                 {else}
-
                 {$error}
                 {/if}
 
 
                 <script src="../js/device_sent.js"></script>
                 <form action="../php/view_data.php" method="post">
-                    <input type="hidden" name="deviceID" value="{$row.M_Id}">
+                    <input type="hidden" name="deviceID" value="{$row.ms_id}">
                     <button class='btn btn-dark m-2 ' type="submit" id="show_btn"  name="showData"> Show </button>
                 </form>
             </div>
