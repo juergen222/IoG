@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/view_data.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/add_device.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/add_device.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/devices.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/devices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/templates_c/034f4930c977932f65c37b77dd2360dc489680dd_0.file.parent.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/templates_c/034f4930c977932f65c37b77dd2360dc489680dd_0.file.parent.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/templates_c/2752afc0707e1b0e49afd7e03487ce523dea77b5_0.file.devices.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/templates_c/2752afc0707e1b0e49afd7e03487ce523dea77b5_0.file.devices.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/templates_c/36b64b4d1648a77600dd945209db7dfcc30ef91c_0.file.home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/templates_c/36b64b4d1648a77600dd945209db7dfcc30ef91c_0.file.home.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/view_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/view_data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devices.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/view_data.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/view_data.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +55,7 @@
       <workItem from="1612946570080" duration="18768000" />
       <workItem from="1613030954688" duration="598000" />
       <workItem from="1614150295459" duration="792000" />
-      <workItem from="1614151095955" duration="21703000" />
+      <workItem from="1614151095955" duration="22187000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -74,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612971119665</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="+ show data page">
+      <created>1614180993961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614180993961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,7 +79,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
+    <MESSAGE value="+ show data page" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ show data page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="239" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612963660741">
@@ -93,18 +91,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612952025735" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1612971117997">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1614180990299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612971117997" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614180990299" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612971047941">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612971047941" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1614150905585">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1614181021668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614150905585" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614181021668" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614181094612">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614181094612" />
     <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614150920246">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
