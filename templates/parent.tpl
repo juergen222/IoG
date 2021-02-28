@@ -57,6 +57,7 @@
                             <a class="linkstyle small  list-group-flush" href="#"> Team</a>
                         </ul>
                     </div>
+
                 </div>
                 <div class=" col-lg-2 col-md-2 col-sm-4 col-xs-12">
                     <h3 class="h3 font-weight-bold"> Componenten</h3>
