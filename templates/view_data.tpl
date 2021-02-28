@@ -13,7 +13,7 @@
         <div class="row justify-content-center m-0">
             {foreach $newData as $parameter}
                     <div class="col-xxl-2 col-xl-2 col-lg-4 col-md-6 col-sm-6 col-12 col-xl-2 " style="max-width: 100%">
-                        <div class="card mb-4 shadow-sm  p-0">
+                        <div class="card mb-4 shadow-sm  p-0 bg-success">
                             <div class="card-header pl-0 pr-0">
                                 <h2>{$parameter.pa_name}</h2>
                             </div>

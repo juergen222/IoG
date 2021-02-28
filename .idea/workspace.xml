@@ -10,9 +10,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Error message if no data is in database in the &quot;device&quot; page fixed &#10;&#10;+view_data.php/view_data.tpl&#10;&#10;+view_data added data output">
+    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/parent.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parent.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/view_data.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/view_data.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <workItem from="1613374636205" duration="9308000" />
       <workItem from="1613473594637" duration="3621000" />
       <workItem from="1613546510735" duration="19838000" />
-      <workItem from="1614521738294" duration="305000" />
+      <workItem from="1614521738294" duration="717000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -120,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613547710137</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible">
+      <created>1614522240360</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614522240360</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +151,8 @@
     <MESSAGE value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;&#10;- echo in php file removed" />
     <MESSAGE value="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage" />
     <MESSAGE value="Error message if no data is in database in the &quot;device&quot; page fixed &#10;&#10;+view_data.php/view_data.tpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Error message if no data is in database in the &quot;device&quot; page fixed &#10;&#10;+view_data.php/view_data.tpl" />
+    <MESSAGE value="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible" />
+    <option name="LAST_COMMIT_MESSAGE" value="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible" />
   </component>
   <component name="WindowStateProjectService">
     <state x="239" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612963660741">
@@ -177,9 +185,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
     <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2" timestamp="1613547716330">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="551" y="241" key="Vcs.Push.Dialog.v2" timestamp="1614522246452">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="551" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-487.2560.1400@0.0.1920.1040" timestamp="1614522246452" />
     <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613547716330" />
     <state x="563" y="257" key="run.anything.popup" timestamp="1613323337685">
       <screen x="0" y="0" width="1920" height="1080" />
@@ -197,6 +206,11 @@
           <url>file://$PROJECT_DIR$/php/templates_c/ba05eb062252045ded06cda295edd59fe562bd33_0.file.devices.tpl.php</url>
           <line>132</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/php/devices.php</url>
+          <line>31</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
