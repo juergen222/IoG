@@ -11,7 +11,6 @@ if(isset($_POST["dataType"]))
     $selectedType = $_POST["dataType"];
 }
 
-echo $selectedType;
 //SELECT `Wert`,`Date` FROM `messwert` WHERE StationID = '7' AND Parameter_Id = 1 AND Date BETWEEN '2021/02/24 11:30:00' AND NOW()
 if(isset($_POST["showData"])|| isset($_POST["reloadBtn"]))
 {
@@ -37,9 +36,10 @@ if(isset($_POST["showData"])|| isset($_POST["reloadBtn"]))
         //TODO keine leeren Cards
     }
 
-    $sqlDiagramData = "SELECT mw_wert, mw_zeit, parameter.pa_einheit FROM messwert
+    $sqlDiagramData = "SELECT mw_wert, mw_zeit, parameter.pa_einheit, parameter.pa_name FROM messwert
                         INNER JOIN parameter ON mw_pafk = parameter.pa_id
-                        WHERE parameter.pa_name = '". $selectedType ."' ";
+                        WHERE parameter.pa_name = '". $selectedType ."' 
+                        AND mw_msfk = '". $idOfDevice ."'";
 
     $diagramDataRes= $mysqli->query($sqlDiagramData);
     if($diagramDataRes->num_rows > 0){

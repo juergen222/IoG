@@ -11,15 +11,16 @@
 
         function drawChart() {
             var data = google.visualization.arrayToDataTable([
-                ['Year', 'Sales', 'Expenses'],
-                ['2004',  1000,      400],
-                ['2005',  1170,      460],
-                ['2006',  660,       1120],
-                ['2007',  1030,      540]
+                {/literal}
+                ['Time', '{$diagramData[0].pa_name}'],
+                    {foreach $diagramData as $row}
+                        ['{$row.mw_zeit}', {$row.mw_wert}],
+                    {/foreach}
+                {literal}
             ]);
 
             var options = {
-                title: 'Company Performance',
+                title: {/literal}'{$diagramData[0].pa_name}'{literal},
                 curveType: 'function',
                 legend: { position: 'bottom' }
             };
@@ -86,26 +87,9 @@
             <button id="selectButton" type="submit" name="reloadBtn"  class="btn btn-dark">Select</button>
 
         </form>
-            <table>
-
-
-                {foreach $diagramData as $row}
-
-                <tr>
-                    <td>{$row.mw_wert}</td>
-                    <td>{$row.mw_zeit}</td>
-                    <td>{$row.pa_einheit}</td>
-                </tr>
-
-
-                {/foreach}
-            </table>
-        <div id="curve_chart" style="width: 900px; height: 500px"></div>
-
-
+            <div id="curve_chart" style="width: 900px; height: 500px"></div>
         </div>
             <section class="banner-white">
-
         </div>
 
 
