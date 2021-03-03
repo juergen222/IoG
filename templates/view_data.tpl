@@ -72,19 +72,34 @@
         </div>
         <hr>
         <div class="container-fluid mt-4">
-        <form method="post" action="">
+        <form method="post" action="view_data.php">
             <label for="dataType"> Choose the type of data </label>
             <select id="dataType" name="dataType">
-                <option value="temperatur">temperature </option>
-                <option value="luftdruck">air pressure </option>
-                <option value="luftfeuchtigkeit">air moisture </option>
-                <option value="uvLevel">UV-level</option>
-                <option value="bodenfeuchtigkeit">soil Moisture</option>
+                <option value="Temperatur">temperature </option>
+                <option value="Luftdruck">air pressure </option>
+                <option value="Luftfeuchtigkeit">air moisture </option>
+                <option value="UV-Level">UV-level</option>
+                <option value="Bodenfeuchtigkeit">soil Moisture</option>
 
             </select>
-            <button id="selectButton" type="submit" name="selectbtn"  class="btn btn-dark">Select</button>
+            <input type="hidden" name="deviceID" value="{$idOfDevice}" >
+            <button id="selectButton" type="submit" name="reloadBtn"  class="btn btn-dark">Select</button>
 
         </form>
+            <table>
+
+
+                {foreach $diagramData as $row}
+
+                <tr>
+                    <td>{$row.mw_wert}</td>
+                    <td>{$row.mw_zeit}</td>
+                    <td>{$row.pa_einheit}</td>
+                </tr>
+
+
+                {/foreach}
+            </table>
         <div id="curve_chart" style="width: 900px; height: 500px"></div>
 
 

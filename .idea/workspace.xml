@@ -74,7 +74,7 @@
       <workItem from="1613546510735" duration="19838000" />
       <workItem from="1614521738294" duration="7900000" />
       <workItem from="1614683482757" duration="5965000" />
-      <workItem from="1614755537806" duration="4373000" />
+      <workItem from="1614755537806" duration="10141000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -160,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614760099381</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="fixed: keine error message wenn nicht mit Data befüllt&#10;+device.css&#10;+cards bei device.ph&#10;+span bei add_device &#10;+select input bei view_data.tpl&#10;+diagram bei view_data.tpl&#10;&#10;-erster button bei add_device">
+      <created>1614760178522</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1614760178522</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,19 +230,20 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
     <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
-    <state x="551" y="241" key="Vcs.Push.Dialog.v2" timestamp="1614760104875">
+    <state x="551" y="241" key="Vcs.Push.Dialog.v2" timestamp="1614760180460">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-226.2560.1400@0.0.1920.1040" timestamp="1614760104875" />
+    <state x="551" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-226.2560.1400@0.0.1920.1040" timestamp="1614760180460" />
     <state x="551" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-487.2560.1400@0.0.1920.1040" timestamp="1614522488462" />
     <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613547716330" />
     <state x="563" y="257" key="run.anything.popup" timestamp="1613323337685">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="563" y="257" key="run.anything.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613323337685" />
-    <state x="573" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1613549379986">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="573" y="240" width="672" height="653" key="search.everywhere.popup" timestamp="1614761043578">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="573" y="240" width="672" height="653" key="search.everywhere.popup/0.0.1920.1040/-3840.-226.2560.1400@0.0.1920.1040" timestamp="1614761043578" />
     <state x="573" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613549379986" />
   </component>
   <component name="XDebuggerManager">

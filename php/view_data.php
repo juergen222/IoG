@@ -5,10 +5,18 @@ include ('../php/db_conn.php');
 $smarty = new Smarty;
 
 $idOfDevice = $_POST["deviceID"];
-
-//SELECT `Wert`,`Date` FROM `messwert` WHERE StationID = '7' AND Parameter_Id = 1 AND Date BETWEEN '2021/02/24 11:30:00' AND NOW()
-if(isset($_POST["showData"]))
+$selectedType = "Temperatur";
+if(isset($_POST["dataType"]))
 {
+    $selectedType = $_POST["dataType"];
+}
+
+echo $selectedType;
+//SELECT `Wert`,`Date` FROM `messwert` WHERE StationID = '7' AND Parameter_Id = 1 AND Date BETWEEN '2021/02/24 11:30:00' AND NOW()
+if(isset($_POST["showData"])|| isset($_POST["reloadBtn"]))
+{
+
+
     $sqlParameter = "SELECT pa_id FROM `parameter`";
 
     $parameter = $mysqli->query($sqlParameter);
@@ -26,12 +34,19 @@ if(isset($_POST["showData"]))
         if($newDataResult->num_rows > 0) {
             $newData[] = $newDataResult->fetch_assoc();
         }
-
         //TODO keine leeren Cards
-
-
     }
 
+    $sqlDiagramData = "SELECT mw_wert, mw_zeit, parameter.pa_einheit FROM messwert
+                        INNER JOIN parameter ON mw_pafk = parameter.pa_id
+                        WHERE parameter.pa_name = '". $selectedType ."' ";
+
+    $diagramDataRes= $mysqli->query($sqlDiagramData);
+    if($diagramDataRes->num_rows > 0){
+        while ($diagramDataRow = $diagramDataRes->fetch_assoc()){
+            $diagramData[]=$diagramDataRow;
+        }
+    }
 
 
 
@@ -73,10 +88,12 @@ if(isset($newData))
     $smarty->assign('newData', $newData);
 
 }
+$smarty->assign("diagramData", $diagramData);
 
 
 //$smarty->assign('dbname', $dbname);
 //$smarty->assign('dboutput', $dboutput);
+$smarty->assign('idOfDevice', $idOfDevice);
 $smarty->display('../templates/view_data.tpl');
 
 
