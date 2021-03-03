@@ -3,7 +3,7 @@
 {block name=stylesheet}<link rel="stylesheet" href="../css/deviceNav.css">
     <link rel="stylesheet" type="text/css" href="../css/view_data.css"> {/block}
 {block name=script}
-{literal}
+    {literal}
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <script type="text/javascript">
         google.charts.load('current', {'packages':['corechart']});
@@ -29,7 +29,7 @@
             chart.draw(data, options);
         }
     </script>
-{/literal}
+    {/literal}
 {/block}
 {block name=header}<h1 class="devicesTitle display-1 h1">My Data</h1> {/block}
 
@@ -65,14 +65,49 @@
 
 
 
+            last measurement: {$newData[0].mw_zeit}
 
 
-            <section class="banner-white">
+
         </div>
-            Letzte Messung:
         <hr>
-    </div>
-    <div id="curve_chart" style="width: 900px; height: 500px"></div>
+        <div class="container-fluid mt-4">
+        <form method="post" action="view_data.php">
+            <label for="dataType"> Choose the type of data </label>
+            <select id="dataType" name="dataType">
+                <option value="Temperatur">temperature </option>
+                <option value="Luftdruck">air pressure </option>
+                <option value="Luftfeuchtigkeit">air moisture </option>
+                <option value="UV-Level">UV-level</option>
+                <option value="Bodenfeuchtigkeit">soil Moisture</option>
+
+            </select>
+            <input type="hidden" name="deviceID" value="{$idOfDevice}" >
+            <button id="selectButton" type="submit" name="reloadBtn"  class="btn btn-dark">Select</button>
+
+        </form>
+            <table>
+
+
+                {foreach $diagramData as $row}
+
+                <tr>
+                    <td>{$row.mw_wert}</td>
+                    <td>{$row.mw_zeit}</td>
+                    <td>{$row.pa_einheit}</td>
+                </tr>
+
+
+                {/foreach}
+            </table>
+        <div id="curve_chart" style="width: 900px; height: 500px"></div>
+
+
+        </div>
+            <section class="banner-white">
+
+        </div>
+
 
 <!--<div class="container p-3 bg-white " style="max-width: 80%">
     <h1 class="h1 mt-5"></h1>
