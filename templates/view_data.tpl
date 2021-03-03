@@ -72,7 +72,7 @@
         </div>
         <hr>
         <div class="container-fluid mt-4">
-        <form method="post">
+        <form method="post" action="">
             <label for="dataType"> Choose the type of data </label>
             <select id="dataType" name="dataType">
                 <option value="temperatur">temperature </option>
@@ -80,9 +80,9 @@
                 <option value="luftfeuchtigkeit">air moisture </option>
                 <option value="uvLevel">UV-level</option>
                 <option value="bodenfeuchtigkeit">soil Moisture</option>
-            <input
+
             </select>
-            <button id="selectButton" type="submit" name="selectbtn"  class="btn btn-dark">Create</button>
+            <button id="selectButton" type="submit" name="selectbtn"  class="btn btn-dark">Select</button>
 
         </form>
         <div id="curve_chart" style="width: 900px; height: 500px"></div>

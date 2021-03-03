@@ -5,6 +5,7 @@ include ('../php/db_conn.php');
 $smarty = new Smarty;
 
 $idOfDevice = $_POST["deviceID"];
+
 //SELECT `Wert`,`Date` FROM `messwert` WHERE StationID = '7' AND Parameter_Id = 1 AND Date BETWEEN '2021/02/24 11:30:00' AND NOW()
 if(isset($_POST["showData"]))
 {
