@@ -31,7 +31,7 @@
                     <input type="text" name="comment" class="form-control" id="InfoPassword" placeholder="Comment">
                 </div>
                 <div class="form-group">
-                    <label for="GeräteID">GeräteID</label>
+                    <label for="GeräteID">DeviceID</label>
                     <span class="careful"> *required*</span>
                     <div class="information">  Can be found on measure device  </div>
                     <input type="text" name="deviceId" class="form-control" id="InfoPassword" placeholder="GeräteID">
