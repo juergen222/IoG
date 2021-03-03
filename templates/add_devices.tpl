@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="../css/deviceNav.css">
     <script src="../js/table_appear.js"></script>
 {/block}
-{block name=header}<h1 class="devicesTitle display-1 h1">ADD Devices</h1>{/block}
+{block name=header}<h1 class="devicesTitle display-1 h1">Add Devices</h1>{/block}
 {block name=main}
     <div class="container p-3 bg-white " style="max-width: 80%">
 
@@ -16,8 +16,8 @@
 
         <div class="container-fluid mb-3">
             <h1 class="h1 mt-5"> Add a new device</h1>
-            <p>To add new patch press button</p>
-            <button type="button" class="btn btn-dark " id="buttonData"> Add patch</button>
+            <!--<p>To add new patch press button</p>
+            <button type="button" class="btn btn-dark " id="buttonData"> Add patch</button>-->
 
             <form class="mt-5" id="inputData"   method="POST">
                 <div class="form-group">
@@ -27,7 +27,7 @@
 
                 </div>
                 <div class="form-group">
-                    <label for="InfoPassword">*Comment</label>
+                    <label for="InfoPassword">*Comment</label> <span class="information"> *max 255 symbols* </span>
                     <input type="text" name="comment" class="form-control" id="InfoPassword" placeholder="Comment">
                 </div>
                 <div class="form-group">
