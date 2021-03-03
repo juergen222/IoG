@@ -1,7 +1,7 @@
 {extends file="../templates/parent.tpl"}
 {block name=title}IoG - Devices{/block}
 
-{block name=stylesheet}<link rel="stylesheet" href="../css/deviceNav.css">  <script src="../js/device_sent.js"></script>{/block}
+{block name=stylesheet}<link rel="stylesheet" href="../css/deviceNav.css">  <script src="../js/device_sent.js"></script> <link rel="stylesheet" href="../css/device.css" {/block}
 {block name=header}<h1 class="devicesTitle display-1 h1">My Devices</h1> {/block}
 
 {block name=main}
@@ -22,9 +22,23 @@
         </div>
         <div class="row justify-content-center ">
             {foreach $dboutput as $row}
-            <div class='col-lg-3 col-md-3 col-sm-6 col-12 stationItem p-0 m-2 '>
-                <h2 class='h3 m-0 p-0' id="deviceName"> {$row.ms_name}  </h2>
-                <p class="commentOutput">{$row.ms_comment}</p>
+
+
+
+
+            <div class=' col-xl-4 col-lg-3 col-md-6 col-sm-6 col-12  '>
+
+
+                <div class="card  text-center" >
+                    <div class="card-header "> <h2 class='h3 card-title card-titleText m-0 p-0' id="deviceName"> {$row.ms_name}  </h2> </div>
+                    <!--<img class="card-img-top card_device_img " src="../res/deviceImage.png" alt="Card image cap">-->
+                    <div class="card-body ">
+
+                        <p class="commentOutput card-text mb-0">{$row.ms_comment}</p>
+
+                    </div>
+
+
 
 
                 {if (isset($dboutputData[$row@index].mw_wert))}
@@ -39,8 +53,10 @@
                 <script src="../js/device_sent.js"></script>
                 <form action="../php/view_data.php" method="post">
                     <input type="hidden" name="deviceID" value="{$row.ms_id}">
-                    <button class='btn btn-dark m-2 ' type="submit" id="show_btn"  name="showData"> Show </button>
+                    <button class='btn btn-dark mt-2 mb-2' type="submit" id="show_btn"  name="showData"> Show </button>
                 </form>
+            </div>
+
             </div>
 
 

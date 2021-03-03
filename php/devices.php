@@ -39,7 +39,8 @@ if($result->num_rows >0){
     }
 
 
-
+    //TODO Data ausgeben
+    //TODO Design verändern von Kästchen
 
 }
 else{

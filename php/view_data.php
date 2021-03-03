@@ -25,6 +25,10 @@ if(isset($_POST["showData"]))
         if($newDataResult->num_rows > 0) {
             $newData[] = $newDataResult->fetch_assoc();
         }
+
+        //TODO keine leeren Cards
+
+
     }
 
 
@@ -63,7 +67,13 @@ if(isset($_POST["showData"]))
     }*/
 
 }
-$smarty->assign('newData', $newData);
+if(isset($newData))
+{
+    $smarty->assign('newData', $newData);
+
+}
+
+
 //$smarty->assign('dbname', $dbname);
 //$smarty->assign('dboutput', $dboutput);
 $smarty->display('../templates/view_data.tpl');

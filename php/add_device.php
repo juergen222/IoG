@@ -24,6 +24,8 @@ if(isset($_POST['submitbtn']) && !empty($_POST["name"]) && !empty($_POST["device
             echo "The required values, mustn't be empty </p>";
         }
     }
+    //TODO anzeigen wie viele zeichen
+    //TODO jeh nachdem anzeige verändern
     $name = NULL;
 }
 else{

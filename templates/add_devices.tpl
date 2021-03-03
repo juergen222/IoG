@@ -16,8 +16,8 @@
 
         <div class="container-fluid mb-3">
             <h1 class="h1 mt-5"> Add a new device</h1>
-            <p>To add new patch press button</p>
-            <button type="button" class="btn btn-dark " id="buttonData"> Add patch</button>
+            <!--<p>To add new patch press button</p>
+            <button type="button" class="btn btn-dark " id="buttonData"> Add patch</button>-->
 
             <form class="mt-5" id="inputData"   method="POST">
                 <div class="form-group">
