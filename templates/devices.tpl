@@ -43,7 +43,7 @@
 
                 {if (isset($dboutputData[$row@index].mw_wert))}
 
-                    {$dboutputData[$row@index].pa_name}: {$dboutputData[$row@index].mw_wert}<br>
+                    {$dboutputData[$row@index].pa_name}:<br> {$dboutputData[$row@index].mw_wert} {$dboutputData[$row@index].pa_einheit}<br>
 
                 {else}
                 {$error}

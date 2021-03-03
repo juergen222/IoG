@@ -10,15 +10,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Datenbank upgedatet &#10; + view_data site cards&#10; +all data visible &#10; +view_data green cards">
-      <change afterPath="$PROJECT_DIR$/css/device.css" afterDir="false" />
+    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="fixed: keine error message wenn nicht mit Data befüllt&#10;+device.css&#10;+cards bei device.ph&#10;&#10;-erster button bei add_device">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/add_device.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/add_device.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/devices.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/devices.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/view_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/view_data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/add_devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_devices.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devices.tpl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/view_data.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/view_data.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,7 @@
       <workItem from="1613546510735" duration="19838000" />
       <workItem from="1614521738294" duration="7900000" />
       <workItem from="1614683482757" duration="5965000" />
-      <workItem from="1614755537806" duration="1384000" />
+      <workItem from="1614755537806" duration="2601000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -144,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614522469105</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fixed: keine error message wenn nicht mit Data befüllt&#10;+device.css&#10;+cards bei device.ph&#10;&#10;-erster button bei add_device">
+      <created>1614757512241</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1614757512241</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,7 +172,8 @@
     <MESSAGE value="Error message if no data is in database in the &quot;device&quot; page fixed &#10;&#10;+view_data.php/view_data.tpl" />
     <MESSAGE value="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible" />
     <MESSAGE value="Datenbank upgedatet &#10; + view_data site cards&#10; +all data visible &#10; +view_data green cards" />
-    <option name="LAST_COMMIT_MESSAGE" value="Datenbank upgedatet &#10; + view_data site cards&#10; +all data visible &#10; +view_data green cards" />
+    <MESSAGE value="fixed: keine error message wenn nicht mit Data befüllt&#10;+device.css&#10;+cards bei device.ph&#10;&#10;-erster button bei add_device" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed: keine error message wenn nicht mit Data befüllt&#10;+device.css&#10;+cards bei device.ph&#10;&#10;-erster button bei add_device" />
   </component>
   <component name="WindowStateProjectService">
     <state x="239" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612963660741">
@@ -204,9 +207,10 @@
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
     <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
-    <state x="551" y="241" key="Vcs.Push.Dialog.v2" timestamp="1614522488462">
+    <state x="551" y="241" key="Vcs.Push.Dialog.v2" timestamp="1614757517374">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="551" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-226.2560.1400@0.0.1920.1040" timestamp="1614757517374" />
     <state x="551" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-487.2560.1400@0.0.1920.1040" timestamp="1614522488462" />
     <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613547716330" />
     <state x="563" y="257" key="run.anything.popup" timestamp="1613323337685">
