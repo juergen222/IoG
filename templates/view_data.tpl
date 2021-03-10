@@ -26,13 +26,18 @@
             };
 
             var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+            chart.draw(data,options);
 
-            chart.draw(data, options);
+
         }
+        $(window).resize(function(){
+            drawChart();
+
+        });
     </script>
     {/literal}
 {/block}
-{block name=header}<h1 class="devicesTitle display-1 h1">My Data</h1> {/block}
+{block name=header}<h1 class="devicesTitle display-1 h1">Meine Daten</h1> {/block}
 
 
 {block name=main}
@@ -61,12 +66,12 @@
 
 
             {else}
-            <h1 style="text-align: center; "> No Data yet Received  </h1>
+            <h1 style="text-align: center; "> Keine Daten vorhanden  </h1>
         {/if}
 
 
 
-            last measurement: {$newData[0].mw_zeit}
+            Letzte Messung: {$newData[0].mw_zeit}
 
 
 
@@ -74,20 +79,20 @@
         <hr>
         <div class="container-fluid mt-4">
         <form method="post" action="view_data.php">
-            <label for="dataType"> Choose the type of data </label>
+            <label for="dataType"> Welche Daten sollen dargestellt werden?</label>
             <select id="dataType" name="dataType">
-                <option value="Temperatur">temperature </option>
-                <option value="Luftdruck">air pressure </option>
-                <option value="Luftfeuchtigkeit">air moisture </option>
+                <option value="Temperatur">Temperatur</option>
+                <option value="Luftdruck">Luftdruck</option>
+                <option value="Luftfeuchtigkeit">Luftfeuchtigkeit </option>
                 <option value="UV-Level">UV-level</option>
-                <option value="Bodenfeuchtigkeit">soil Moisture</option>
+                <option value="Bodenfeuchtigkeit">Bodenfeuchtigkeit</option>
 
             </select>
             <input type="hidden" name="deviceID" value="{$idOfDevice}" >
-            <button id="selectButton" type="submit" name="reloadBtn"  class="btn btn-dark">Select</button>
+            <button id="selectButton" type="submit" name="reloadBtn"  class="btn btn-dark">Wählen</button>
 
         </form>
-            <div id="curve_chart" style="width: 900px; height: 500px"></div>
+            <div id="curve_chart" class="chart-own"></div>
         </div>
             <section class="banner-white">
         </div>

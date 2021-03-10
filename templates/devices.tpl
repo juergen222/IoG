@@ -2,12 +2,12 @@
 {block name=title}IoG - Devices{/block}
 
 {block name=stylesheet}<link rel="stylesheet" href="../css/deviceNav.css">  <script src="../js/device_sent.js"></script> <link rel="stylesheet" href="../css/device.css" {/block}
-{block name=header}<h1 class="devicesTitle display-1 h1">My Devices</h1> {/block}
+{block name=header}<h1 class="devicesTitle display-1 h1">Meine Messstationen</h1> {/block}
 
 {block name=main}
 
     <!--<section class="banner"></section>-->
-    <div class="container p-3 bg-white " style="max-width: 80%">
+    <div class="container p-3 bg-white mt-4 " style="max-width: 80%">
         <div class="container " id="mainCon">
 
 
@@ -18,7 +18,7 @@
                 <input type="date" id="dayOfMeasureEnd" name="MeasureDateEnd">
         </form>-->
 
-        <span><a href="../php/add_device.php">Add New Device</a></span>
+        <span><a href="../php/add_device.php">Neue Station anlegen</a></span>
         </div>
         <div class="row justify-content-center ">
             {foreach $dboutput as $row}
@@ -53,7 +53,7 @@
                 <script src="../js/device_sent.js"></script>
                 <form action="../php/view_data.php" method="post">
                     <input type="hidden" name="deviceID" value="{$row.ms_id}">
-                    <button class='btn btn-dark mt-2 mb-2' type="submit" id="show_btn"  name="showData"> Show </button>
+                    <button class='btn btn-dark mt-2 mb-2' type="submit" id="show_btn"  name="showData">Anzeigen</button>
                 </form>
             </div>
 

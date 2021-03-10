@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible">
+    <list default="true" id="2e4ecb34-71e2-4adf-8847-3b405ec2caf3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/view_data.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/view_data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/view_data.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/view_data.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/devices.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/devices.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/templates_c/034f4930c977932f65c37b77dd2360dc489680dd_0.file.parent.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/templates_c/034f4930c977932f65c37b77dd2360dc489680dd_0.file.parent.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/templates_c/2752afc0707e1b0e49afd7e03487ce523dea77b5_0.file.devices.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/templates_c/2752afc0707e1b0e49afd7e03487ce523dea77b5_0.file.devices.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/templates_c/36b64b4d1648a77600dd945209db7dfcc30ef91c_0.file.home.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/php/templates_c/36b64b4d1648a77600dd945209db7dfcc30ef91c_0.file.home.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_devices.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/devices.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/devices.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.tpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/parent.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/parent.tpl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/view_data.tpl" beforeDir="false" afterPath="$PROJECT_DIR$/templates/view_data.tpl" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -44,13 +43,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="Y:\Programm files\xampp\htdocs\IoG\js" />
       <recent name="D:\xampp\htdocs\IoG\css" />
       <recent name="D:\xampp\htdocs\IoG\res" />
       <recent name="D:\xampp\htdocs\IoG\js" />
@@ -66,11 +64,8 @@
       <updated>1612946568988</updated>
       <workItem from="1612946570080" duration="18768000" />
       <workItem from="1613030954688" duration="598000" />
-      <workItem from="1613311546980" duration="19778000" />
-      <workItem from="1613374636205" duration="9308000" />
-      <workItem from="1613473594637" duration="3621000" />
-      <workItem from="1613546510735" duration="19838000" />
-      <workItem from="1614521738294" duration="717000" />
+      <workItem from="1614150295459" duration="792000" />
+      <workItem from="1614151095955" duration="22187000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1612971119665</created>
@@ -79,81 +74,23 @@
       <option name="project" value="LOCAL" />
       <updated>1612971119665</updated>
     </task>
-    <task id="LOCAL-00002" summary="Initial Commit">
-      <created>1613320107278</created>
+    <task id="LOCAL-00002" summary="+ show data page">
+      <created>1614180993961</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1613320107278</updated>
+      <updated>1614180993961</updated>
     </task>
-    <task id="LOCAL-00003" summary="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;- echo in php file removed">
-      <created>1613321652979</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1613321652979</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;&#10;- echo in php file removed">
-      <created>1613328824631</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613328824631</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage">
-      <created>1613329958147</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1613329958147</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage">
-      <created>1613331123370</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1613331123370</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Error message if no data is in database in the &quot;device&quot; page fixed &#10;&#10;+view_data.php/view_data.tpl">
-      <created>1613547710137</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1613547710137</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible">
-      <created>1614522240360</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1614522240360</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
-    <MESSAGE value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;- echo in php file removed" />
-    <MESSAGE value="Devices Fixed &#10;&#10;+ smarty array assigned and used in template file&#10;&#10;&#10;- echo in php file removed" />
-    <MESSAGE value="Devices design-Fixed &#10;&#10;+ add_devices&#10; &#10;+fixed device page&#10;&#10;- justify text homepage" />
-    <MESSAGE value="Error message if no data is in database in the &quot;device&quot; page fixed &#10;&#10;+view_data.php/view_data.tpl" />
-    <MESSAGE value="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible" />
-    <option name="LAST_COMMIT_MESSAGE" value="Datenbank upgedatet &#10; + view data site cards&#10; +all data visible" />
+    <MESSAGE value="+ show data page" />
+    <option name="LAST_COMMIT_MESSAGE" value="+ show data page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="239" y="325" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612963660741">
@@ -164,56 +101,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612952025735" />
-    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1612971117997">
+    <state x="585" y="88" key="CommitChangelistDialog2" timestamp="1614180990299">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1612971117997" />
-    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1613566270089">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="585" y="88" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1614180990299" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612971047941">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612971047941" />
-    <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613566270089" />
-    <state x="838" y="438" key="Github.ShareDialog" timestamp="1613320390287">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="838" y="438" key="Github.ShareDialog/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320390287" />
-    <state x="793" y="467" key="NewPhpFileDialog" timestamp="1613549324277">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="793" y="467" key="NewPhpFileDialog/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613549324277" />
-    <state x="461" y="171" key="SettingsEditor" timestamp="1613320364156">
-      <screen x="0" y="0" width="1920" height="1080" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612971226214" />
-    <state x="461" y="171" key="SettingsEditor/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613320364156" />
-    <state x="551" y="241" key="Vcs.Push.Dialog.v2" timestamp="1614522246452">
+    <state x="461" y="165" key="SettingsEditor" timestamp="1614181021668">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="551" y="241" key="Vcs.Push.Dialog.v2/0.0.1920.1040/-3840.-487.2560.1400@0.0.1920.1040" timestamp="1614522246452" />
-    <state x="551" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613547716330" />
-    <state x="563" y="257" key="run.anything.popup" timestamp="1613323337685">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614181021668" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1614181094612">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="563" y="257" key="run.anything.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613323337685" />
-    <state x="573" y="249" width="672" height="678" key="search.everywhere.popup" timestamp="1613549379986">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614181094612" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614150920246">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="573" y="249" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080/-3840.-226.2560.1440@0.0.1920.1080" timestamp="1613549379986" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php/templates_c/ba05eb062252045ded06cda295edd59fe562bd33_0.file.devices.tpl.php</url>
-          <line>132</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="php">
-          <url>file://$PROJECT_DIR$/php/devices.php</url>
-          <line>31</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614150920246" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1614158185574">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1614158185574" />
   </component>
 </project>

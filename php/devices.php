@@ -49,7 +49,7 @@ else{
 }
 
 
-    $error ="No Data yet received";
+    $error ="Keine Daten erhalten";
     $smarty->assign('error',$error);
 
 $smarty->assign('dboutput',$dboutput);

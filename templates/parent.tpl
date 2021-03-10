@@ -33,8 +33,8 @@
                 <div id="mainListDiv" class="main_list">
                     <ul class="navlinks">
                         <li><a href="../php/home.php">Home</a></li>
-                        <li><a href="../php/devices.php">Devices</a></li>
-                        <li><a href="#">About Us</a></li>
+                        <li><a href="../php/devices.php">Stationen</a></li>
+                        <li><a href="#">Über uns</a></li>
                     </ul>
                 </div>
                 <span class="navTrigger">
@@ -56,7 +56,7 @@
             <div class="row p-sm-0 p-4 " >
                 <div class=" col-lg-2 col-md-2 col-sm-4 col-12 ">
                     <div class=" col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                        <h3 class="h3 font-weight-bold">Contact</h3>
+                        <h3 class="h3 font-weight-bold">Kontakt</h3>
                         <ul class="list-group-flush">
                             <a class="linkstyle small  list-group-flush" href="#"> Team</a>
                         </ul>
@@ -64,7 +64,7 @@
 
                 </div>
                 <div class=" col-lg-2 col-md-2 col-sm-4 col-xs-12">
-                    <h3 class="h3 font-weight-bold">Components</h3>
+                    <h3 class="h3 font-weight-bold">Komponenten</h3>
                     <ul class="list-group-flush">
                         <li class="list-unstyled">
                             <a class="linkstyle small  list-group-flush" href="https://www.amazon.de/Raspberry-Pi-ARM-Cortex-A72-Bluetooth-Micro-HDMI/dp/B07TC2BK1X/ref=sxts_sxwds-bia-wc-p13n1_0?cv_ct_cx=raspberry+pi&dchild=1&keywords=raspberry+pi&link_code=qs&pd_rd_i=B07TC2BK1X&pd_rd_r=15312756-a7f1-4ef8-965a-6bbc94bd6a4a&pd_rd_w=9QPD9&pd_rd_wg=jz6cc&pf_rd_p=5c4c8825-c15a-42fb-8505-0b8a81aae4b7&pf_rd_r=QZ45TC3JW6WYRJ85NRNM&psc=1&qid=1604313975&sourceid=Mozilla-search&sr=1-1-fdbae751-0fa5-4c0f-900b-865654896618&tag=firefox-de-21"> Raspberry Pi</a>
